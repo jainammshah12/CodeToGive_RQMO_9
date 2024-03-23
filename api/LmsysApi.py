@@ -13,7 +13,7 @@ from huggingface_hub import hf_hub_download
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline, AutoModelForSeq2SeqLM
 
 
-HUGGING_FACE_API_KEY = os.environ.get("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") #could be hardcoded
+HUGGING_FACE_API_KEY = os.environ.get("HUGGING_FACE_API_KEY") #could be hardcoded
 
 model_id = "lmsys/fastchat-t5-3b-v1.0"
 filenames = [
