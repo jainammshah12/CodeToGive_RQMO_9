@@ -15,6 +15,9 @@ const Scenario = () => {
         <div>
             <div style={{border: "solid 2px black", width: "97%", height: "100px", padding: "15px", position: "relative"}}>
                 <p>
+                You are a student at Concordia University and currently a technology analyst intern at Morgan Stanley. 
+                You suddenly realize that you have a bunch of issues - red rashes, high fever, a headache, a stomachache.
+                 Also, you apparently for some reason can't see very clearly.
                 </p>
             </div>
             <div style={{padding: "20px"}}>
