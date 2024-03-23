@@ -4,10 +4,10 @@
 A web-based game where the user discovers the challenges of establishing a diagnosis within the rare disease context.
 
 ## User Flow ##
-Prompt for symptoms and description
-Give the treatment plan if it is similar to another disease
-If no one has ever heard of it and never been diagnosed, then collect further information regarding genetics, environment and tests (blood, urine, etc.).
-Ask for further resources - access to pharmacy, access to medical assistance like hospitals, nurses, doctors, etc. and provide what can be done.
+- Prompt for symptoms and description
+- Give the treatment plan if it is similar to another disease
+- If no one has ever heard of it and never been diagnosed, then collect further information regarding genetics, environment and tests (blood, urine, etc.).
+- Ask for further resources - access to pharmacy, access to medical assistance like hospitals, nurses, doctors, etc. and provide what can be done.
 
 ## Tasks ##
 - Create symptoms and descriptions for diseases.
