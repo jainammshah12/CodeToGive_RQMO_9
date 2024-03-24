@@ -1,4 +1,5 @@
 import Option from './Option';
+import React, { useEffect, useState } from "react";
 
 const Scenario = () => {
     const [data, setData] = useState([]);
