@@ -1,9 +1,14 @@
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
-const Game = () => {
+const Game = ({ count, setCount }) => {
     return(
-        <div>
-            <h1>Welcome to Diagnosis Quest!</h1>
+        <div style={{backgroundColor: "#ebebeb", }}>
+            <div class="typing-container" style={{fontSize: "60px", fontWeight: "bold", marginTop: "40px"}}>
+                <span id="sentence" class="sentence">Welcome to Diagnosis Quest!</span>
+                <span id="feature-text"></span>
+                <span class="input-cursor"></span>
+            </div>
             <div style={{width: "50%", marginLeft: "380px", }}>
                 <p>Navigate through the challenges of the healthcare system, connect with professionals, 
                 and explore support networks to find answers and improve your well-being.</p>
@@ -21,10 +26,19 @@ const Game = () => {
             <Link to="/game">
         
       
-            <button style={{background: "white", fontSize: "30px", marginTop: "30px", left: "0", padding: "10px"}}>
+            <button style={{background: "white", fontSize: "30px", marginTop: "50px", left: "0", padding: "10px"}} onClick={() => setCount(count+1)}>
                 Ready to play?
             </button>
             </Link>
+
+            {/* <div style={{left: "0", textAlign: "left", backgroundColor: "white", padding: "20px", marginTop: "230px"}}>
+                <h5> Reach out to us if you know anyone facing this issue </h5>
+                <Link to="https://rqmo.org/ressources-pour-vous/">
+                    <button style={{background: "black", fontSize: "20px", marginTop: "5px", left: "0", padding: "5px", color: "white"}}>
+                        Further Resources
+                    </button>
+                </Link>
+            </div> */}
         </div>
     )
 };

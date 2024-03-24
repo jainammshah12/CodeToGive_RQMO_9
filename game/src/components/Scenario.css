@@ -34,7 +34,7 @@ img {
     border: solid 1px black;
     left: 800px;
     padding: 40px;
-    margin-top: 20px;
+    margin-top: -20px;
     width: 40%;
     background-color: rgb(131, 230, 255);
     size: 30px;
@@ -79,15 +79,16 @@ img {
 }
 
 
-input[type=radio] {
-    width: 20%;
-    height: 1.5em;
+#option1 button:active, #option2 button:active {
+    background-color: rgb(127, 255, 127);
 }
 
-#option1 button:hover, #option2 button:hover, #option3 button:hover {
+#option1 button:hover, #option2 button:hover {
     background-color: rgb(253, 253, 112);   
 }
 
-#option1 button::after{
-    background-color: rgb(109, 252, 109);
+#q:hover, #scene:hover {
+    font-size: 30px;
 }
+
+
