@@ -1,0 +1,10 @@
+# Ignore system-specific files
+.DS_Store
+.vscode/
+
+game/node_modules
+server/node_modules
+
+# Ignore logs and temporary files
+logs/
+temp/
