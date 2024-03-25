@@ -125,7 +125,6 @@ const Scenario = () => {
                             else if (_.isEqual(scenario, data[6])) {
                                 setScenario(data[3]);
                             }
-
                         }}>{scenario.options[0]}</button>
                     <button className='options-button' onClick={() => {
                         if (_.isEqual(scenario, data[0])) {
@@ -149,7 +148,6 @@ const Scenario = () => {
                         else if (_.isEqual(scenario, data[6])) {
                             navigate('/win');
                         }
-
                     }}>{scenario.options[1]}</button>
                 </div>
 
