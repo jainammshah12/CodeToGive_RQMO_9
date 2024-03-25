@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/WavesSVG.css';
+import '../styles/home.css';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
                         Navigate through the challenges of the healthcare system, connect with professionals, and explore support networks to find answers and improve your well-being.
                     </p>
                     <div style={{ textAlign: 'left', padding: '0 20px' }}>
-                        <h5 style={{ margin: 0, marginBottom: '10px' }}>Instructions</h5>
+                        <h4 style={{ margin: 0, marginBottom: '10px' }}>Instructions</h4>
                         <ul style={{ fontSize: 'large' }}>
                             <li>You are in a situation and you need to choose the most appropriate answer.</li>
                             <li>Every answer will pave the way to a different kind of discovery.</li>

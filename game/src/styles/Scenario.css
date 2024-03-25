@@ -13,6 +13,7 @@
 
 #scene>p {
     padding: 15px;
+    font-size: medium;
 }
 
 #q {
@@ -111,6 +112,7 @@
 @media (max-width: 768px) {
     .scenario_container {
         flex-direction: column;
+        justify-content: space-between;
     }
 
     .image_container {
@@ -146,8 +148,13 @@
         margin: 0;
     }
 
+    #q>p {
+        font-size: smaller;
+    }
+
     .options {
         min-height: 75px;
+        margin-bottom: 20px;
     }
 
     .scenario_question {

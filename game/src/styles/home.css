@@ -138,11 +138,16 @@ ul > li {
   }
 
   .inner-header {
-    height: 81vh;
+    height: 85vh;
   }
 
   .content {
-    height: 15vh;
+    height: 11vh;
+    align-items: flex-end;
+  }
+
+  .content > p {
+    margin-bottom: 20px;
   }
 
   h1 {
