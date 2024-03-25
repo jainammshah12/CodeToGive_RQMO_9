@@ -3,6 +3,10 @@
 .vscode/
 
 game/node_modules
+game/build
+game/.gitignore
+game/.firebaserc
+game/firebase.json
 server/node_modules
 
 # Ignore logs and temporary files

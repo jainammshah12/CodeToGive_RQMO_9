@@ -10,7 +10,7 @@
     display: inline-block;
     margin: 10px 5px;
     cursor: pointer;
-    min-width: 200px;
+    min-width: 160px;
     border-radius: 2px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;

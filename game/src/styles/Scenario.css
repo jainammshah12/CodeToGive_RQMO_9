@@ -117,6 +117,7 @@
 
     .image_container {
         width: 100%;
+        height: -webkit-fill-available;
     }
 
     .scenario_details_container {
@@ -126,7 +127,7 @@
     }
 
     .image_container>img {
-        height: 350px;
+        max-height: 350px;
     }
 
     .scenario_header_desktop {
