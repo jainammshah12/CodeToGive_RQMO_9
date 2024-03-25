@@ -1,7 +1,7 @@
 # LLama:
 # 1. Create a replicate acount; https://replicate.com
 # 2. Copy api tolken to clipboard; https://replicate.com/account/api-tokens
-# 3. Set environemnt variable; export REPLICATE_API_TOKEN=r8_1y80mSMTc4CfVFm3fAhiUKvkOU2gNMY4NWC6E
+# 3. Set environemnt variable; export REPLICATE_API_TOKEN="..."
 # 4. pip install replicate
 # 5. Run
 
@@ -10,7 +10,7 @@ import replicate
 output = replicate.run(
     "meta/llama-2-70b-chat:02e509c789964a7ea8736978a43525956ef40397be9033abf9fd2badfe68c9e3",
     input={
-        "prompt": "Can you make up a fictional rare disease with made up symptoms?"
+        "prompt": "Can you make up a silly fictional disease with 1 symptom, write a * symbol before writing the symptom?"
     }
 )
 
