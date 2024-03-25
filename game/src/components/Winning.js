@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import game_over from '../img/game_over.svg'
+import game_over from '../img/game_over.svg';
+import '../styles/winning.css';
 
 const Winning = () => {
 
@@ -11,12 +12,12 @@ const Winning = () => {
                 <p style={{ marginBottom: '30px', marginTop: '0px' }}>Thank you for playing!</p>
                 <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '0px' }}>
                     <Link to="/game">
-                        <button style={{ background: "white", border: '2px solid black', padding: '10px 20px', width: '150px' }}>
+                        <button className='win-option-button'>
                             Play Again
                         </button>
                     </Link>
                     <Link to="/">
-                        <button style={{ background: "white", border: '2px solid black', padding: '10px 20px', width: '150px', marginLeft: '20px' }}>
+                        <button className='win-option-button'>
                             Home
                         </button>
                     </Link>

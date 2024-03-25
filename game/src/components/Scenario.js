@@ -6,6 +6,7 @@ import img2 from '../img/img2.jpg';
 import img3 from '../img/img3.jpg';
 import img4 from '../img/img4.jpg';
 import close_btn from '../img/close_icon.png';
+import { Link } from 'react-router-dom';
 
 
 var _ = require('lodash');
@@ -71,11 +72,13 @@ const Scenario = () => {
     return (
         <div className='scenario_container'>
             <div className='scenario_header scenario_header_mobile'>
-                    <p>
-                        Scenario
-                    </p>
+                <p>
+                    Scenario
+                </p>
+                <Link to="/">
                     <img src={close_btn} alt='close' width='20' height='20' />
-                </div>
+                </Link>
+            </div>
             <div className='image_container'>
                 <img src={scenario.img}
                     alt="had an issue" width="100%" height="auto" />
@@ -85,7 +88,9 @@ const Scenario = () => {
                     <p>
                         Scenario
                     </p>
-                    <img src={close_btn} alt='close' width='20' height='20' />
+                    <Link to="/">
+                        <img src={close_btn} alt='close' width='20' height='20' />
+                    </Link>
                 </div>
                 <div id='scene'>
                     <p>
