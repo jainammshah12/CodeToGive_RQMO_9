@@ -10,7 +10,7 @@ const Game = ({ count, setCount }) => {
                 <span class="input-cursor"></span>
             </div>
             <div style={{width: "50%", marginLeft: "380px", }}>
-                <p>Navigate through the challenges of the healthcare system, connect with professionals, 
+                <p>Navigate through the challenges of the healthcare system, 
                 and explore support networks to find answers and improve your well-being.</p>
             </div>
             

@@ -12,7 +12,7 @@ const Winning = ({ count }) => {
         <h3></h3>
         <Link to="/">
             <button style={{background: "white", fontSize: "20px", marginTop: "30px", marginLeft: "140px", padding: "10px"}}>
-                Click Here
+                Play again
             </button>
         </Link>
 
