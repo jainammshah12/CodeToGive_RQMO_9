@@ -2,6 +2,7 @@
 
 ## Project Description ##
 Diagnosis Quest is a web game that features a quiz-style format that sheds light on the challenges faced by individuals affected by rare diseases. It's designed using React, Node.js, and Python, with an auto-generated API providing images and text.
+Project hosted: https://diagnosis-quest.vercel.app/ 
 
 ## Game Description ##
 Navigate through the challenges of the healthcare system and explore support networks to find answers and improve your well-being.
