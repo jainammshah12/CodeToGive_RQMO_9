@@ -21,6 +21,11 @@ const Winning = () => {
                             Home
                         </button>
                     </Link>
+                    <Link to="https://rqmo.org/ressources-pour-vous/">
+                        <button className='win-option-button' >
+                            Further Resources
+                        </button>
+                    </Link>
                 </div>
 
             </div>
