@@ -12,7 +12,7 @@ const Home = () => {
                         Welcome to Diagnosis Quest!
                     </h1>
                     <p className='description'>
-                        Navigate through the challenges of the healthcare system, connect with professionals, and explore support networks to find answers and improve your well-being.
+                        Navigate through the challenges of the healthcare system and explore support networks to find answers and improve your well-being.
                     </p>
                     <div style={{ textAlign: 'left', padding: '0 20px' }}>
                         <h4 style={{ margin: 0, marginBottom: '10px' }}>Instructions</h4>
