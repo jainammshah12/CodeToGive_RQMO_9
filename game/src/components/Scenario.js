@@ -1,5 +1,5 @@
 import {useState } from 'react';
-import './Scenario.css';
+import '../styles/Scenario.css';
 import { useNavigate } from 'react-router-dom';
 import img1 from '../img/img1.jpg';
 import img2 from '../img/img2.jpg';

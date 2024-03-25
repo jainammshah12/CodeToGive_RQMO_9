@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+#scene {
+    border: solid 2px black;
+    width: 99%;
+    position: relative;
+    background-color: lightblue;
+    height: fit-content;
+    font-size: large;
+    text-align: left;
+}
+
+#scene>p {
+    padding: 15px;
+}
+
+#q {
+    border: solid 2px black;
+    width: 99%;
+    background-color: #171717;
+    color: #fff;
+    margin: 20px 0;
+    font-size: medium;
+    text-align: left;
+    margin-top: auto;
+}
+
+#q>p {
+    padding: 15px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    min-height: 80px;
+    font-size: medium;
+}
+
+.options-button {
+    font-size: medium;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 49%;
+    border-radius: 2px;
+    border: 2px solid #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.options-button:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+    color: #fff;
+    /* transform: scale(1.02); */
+}
+
+
+.scenario_container {
+    display: flex;
+    width: 100vw;
+    height: 100vh
+}
+
+.image_container {
+    display: flex;
+    width: 65%
+}
+
+.image_container img {
+    width: 100%;
+    height: auto;
+}
+
+.scenario_details_container {
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.scenario_header_mobile {
+    display: none;
+}
+
+.scenario_header_desktop {
+    display: flex;
+}
+
+.scenario_header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.scenario_question {
+    letter-spacing: 0.005rem;
+    word-spacing: 0.03rem;
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .scenario_container {
+        flex-direction: column;
+    }
+
+    .image_container {
+        width: 100%;
+    }
+
+    .scenario_details_container {
+        width: 95%;
+        align-self: center;
+        padding: 0;
+    }
+
+    .image_container>img {
+        height: 350px;
+    }
+
+    .scenario_header_desktop {
+        display: none;
+    }
+
+    .scenario_header_mobile {
+        display: flex;
+        width: 95%;
+        align-self: center;
+    }
+
+    #scene {
+        margin: 20px 0;
+        height: 200px;
+    }
+
+    #scene>p {
+        margin: 0;
+    }
+
+    .options {
+        min-height: 75px;
+    }
+
+    .scenario_question {
+        font-size: smaller;
+    }
+}
