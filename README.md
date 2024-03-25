@@ -28,11 +28,10 @@ Thank you to the following contributors for their valuable contributions to the 
 - [Jainam Shah](https://github.com/jainammshah12)
 - [Fiza Razvi](https://github.com/fizarazvi)
 
-Your efforts are greatly appreciated! 🙌
 
 ## Contributing
 
-We welcome contributions! If you would like to contribute to METRICSTICS, please read our [contribution guidelines](CONTRIBUTING.md).
+We welcome contributions! If you would like to contribute to Diagnosis Quest, please read our [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 
@@ -40,4 +39,4 @@ This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LIC
 
 ## Acknowledgements
 
-- A big thanks to the Python community and the Tkinter team for making METRICSTICS possible.
+- We extend our heartfelt gratitude to Morgan Stanley and RQMO, the non-profit organization, for generously providing us with the opportunity to participate in the 'Code to Give' hackathon. It is through their support and encouragement that we were able to develop this innovative product. We are deeply appreciative of their belief in our abilities and their dedication to fostering innovation. Thank you for empowering us to create positive change through our work.
