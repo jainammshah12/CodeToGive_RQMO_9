@@ -27,6 +27,7 @@ Thank you to the following contributors for their valuable contributions to the 
 - [Huzaifa Anjum](https://github.com/huzaifafcrit)
 - [Jainam Shah](https://github.com/jainammshah12)
 - [Fiza Razvi](https://github.com/fizarazvi)
+- [Shayne Gruman](https://github.com/shaynefg)
 
 
 ## Contributing
